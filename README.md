@@ -16,17 +16,17 @@ async def on_message(message):
 
     if message.content.startswith('hello'):
         await message.channel.send(
-            'Twitter has a disincentive to reduce spam, as it reduces perceived daily users. It is suspicious'
-        )
+            ('Twitter has a disincentive to reduce spam, as it reduces perceived daily users. It is suspicious')
+        
 
     if message.content.startswith('russia'):
-        await message.channel.send(
-            'My family fears that the Russians will assassinate me')
+        await message.channel.send
+            ('My family fears that the Russians will assassinate me')
 
     if message.content.startswith('future'):
-        await message.channel.send(
-            'We’re trying to have the non-weird future get here as fast as possible.'
-        )
+        await message.channel.send
+           ( 'We’re trying to have the non-weird future get here as fast as possible.')
+        
 
 
 client.run

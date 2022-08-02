@@ -14,20 +14,19 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.content.startswith('hello'):
+    if message.content.startswith('rocket'):
         await message.channel.send(
-            ('Twitter has a disincentive to reduce spam, as it reduces perceived daily users. It is suspicious')
-        
-
-    if message.content.startswith('russia'):
-        await message.channel.send
-            ('My family fears that the Russians will assassinate me')
+            'I had so many people try to talk me out of starting a rocket company, it was crazy.' )
 
     if message.content.startswith('future'):
-        await message.channel.send
-           ( 'We’re trying to have the non-weird future get here as fast as possible.')
+        await message.channel.send(
+            'We’re trying to have the non-weird future get here as fast as possible.'
+        )
+
+    
+    if message.content.startswith('hello'):
+        await message.channel.send(
+            'Twitter has a disincentive to reduce spam, as it reduces perceived daily users. It is suspicious')
         
 
-
-client.run
-    ('OTkxNDkyNzcxODUwNTAyMjI0.GoDv3P.Y8uDYZLtIcES_oPwUmoVniAzIlXbFMFNVAM8jo')
+client.run('OTkxNDkyNzcxODUwNTAyMjI0.G0NojW.PeGxxDm7XhR0uVeJHQfxvp7Tdi1aC7GS2y8Mgs')
